@@ -18,6 +18,6 @@ public class Controller {
 
             if(Character.isLowerCase(najduza.charAt(i))) rezultat += Character.toUpperCase(najduza.charAt(i));
         }
-        ispis.setText(najduza);
+        ispis.setText(rezultat);
     }
 }
