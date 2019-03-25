@@ -18,8 +18,8 @@
       <RowConstraints />
    </rowConstraints>
    <children>
-      <Button mnemonicParsing="false" text="Prepravi" GridPane.rowIndex="1" />
-      <Label GridPane.rowIndex="2" />
-      <TextField />
+      <Button fx:id="prepravi" mnemonicParsing="false" onAction="#prepravi" text="Prepravi" GridPane.rowIndex="1" />
+      <Label fx:id="ispis" GridPane.rowIndex="2" />
+      <TextField fx:id="unos" />
    </children>
 </GridPane>
